@@ -4,7 +4,6 @@ class Animal(ABC):
     def sound():
         pass
     
-
 class Dog(Animal):
     def sound(self):
         return "Bark"
